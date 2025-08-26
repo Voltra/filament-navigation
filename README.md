@@ -16,12 +16,17 @@ composer require voltra/filament-navigation
 
 Then replace all references of the `RyanChandler\FilamentNavigation` namespace with `Voltra\FilamentNavigation`.
 
+Finally you'll be able to remove the unmaintained package:
+```bash
+composer remove ryangjchandler/filament-navigation
+```
+
 ## Installation
 
 Begin by installing this package via Composer:
 
 ```sh
-composer require ryangjchandler/filament-navigation
+composer require voltra/filament-navigation
 ```
 
 Run migrations.
@@ -188,6 +193,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
+- [Voltra](https://github.com/Voltra)
 - [Ryan Chandler](https://github.com/ryangjchandler)
 - [All Contributors](../../contributors)
 
