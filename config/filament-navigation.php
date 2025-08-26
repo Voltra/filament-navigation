@@ -1,8 +1,8 @@
 <?php
-// config for RyanChandler/FilamentNavigation
+// config for Voltra/FilamentNavigation
 return [
 
-    'navigation_model' => \RyanChandler\FilamentNavigation\Models\Navigation::class,
+    'navigation_model' => \Voltra\FilamentNavigation\Models\Navigation::class,
 
-    'navigation_resource' => \RyanChandler\FilamentNavigation\Filament\Resources\NavigationResource::class,
+    'navigation_resource' => \Voltra\FilamentNavigation\Filament\Resources\NavigationResource::class,
 ];

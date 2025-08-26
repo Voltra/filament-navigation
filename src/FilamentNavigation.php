@@ -1,6 +1,6 @@
 <?php
 
-namespace RyanChandler\FilamentNavigation;
+namespace Voltra\FilamentNavigation;
 
 use Closure;
 use Filament\Contracts\Plugin;
@@ -8,8 +8,8 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Panel;
 use Illuminate\Support\Str;
-use RyanChandler\FilamentNavigation\Filament\Resources\NavigationResource;
-use RyanChandler\FilamentNavigation\Models\Navigation;
+use Voltra\FilamentNavigation\Filament\Resources\NavigationResource;
+use Voltra\FilamentNavigation\Models\Navigation;
 
 class FilamentNavigation implements Plugin
 {

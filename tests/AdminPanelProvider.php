@@ -1,10 +1,10 @@
 <?php
 
-namespace RyanChandler\FilamentNavigation\Tests;
+namespace Voltra\FilamentNavigation\Tests;
 
 use Filament\Panel;
 use Filament\PanelProvider;
-use RyanChandler\FilamentNavigation\FilamentNavigation;
+use Voltra\FilamentNavigation\FilamentNavigation;
 
 class AdminPanelProvider extends PanelProvider
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace RyanChandler\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
+namespace Voltra\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
 
 use Filament\Resources\Pages\CreateRecord;
-use RyanChandler\FilamentNavigation\Filament\Resources\NavigationResource\Pages\Concerns\HandlesNavigationBuilder;
-use RyanChandler\FilamentNavigation\FilamentNavigation;
+use Voltra\FilamentNavigation\Filament\Resources\NavigationResource\Pages\Concerns\HandlesNavigationBuilder;
+use Voltra\FilamentNavigation\FilamentNavigation;
 
 class CreateNavigation extends CreateRecord
 {
