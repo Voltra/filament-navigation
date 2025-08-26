@@ -1,18 +1,29 @@
 {
-    "name": "ryangjchandler/filament-navigation",
+    "name": "voltra/filament-navigation",
     "description": "Build structured navigation menus in Filament.",
     "keywords": [
-        "ryangjchandler",
+        "voltra",
         "laravel",
+        "filament",
+        "laravel-filament",
         "filament-navigation"
     ],
-    "homepage": "https://github.com/ryangjchandler/filament-navigation",
+    "homepage": "https://github.com/Voltra/filament-navigation",
+    "support": {
+        "issues": "https://github.com/voltra/filament-navigation/issues",
+        "source": "https://github.com/voltra/filament-navigation"
+    },
     "license": "MIT",
     "authors": [
         {
+            "name": "Voltra",
+            "email": "dev@ludwig-guerin.fr",
+            "role": "Developer"
+        },
+        {
             "name": "Ryan Chandler",
             "email": "support@ryangjchandler.co.uk",
-            "role": "Developer"
+            "role": "Author"
         }
     ],
     "require": {
@@ -38,13 +49,13 @@
     },
     "autoload": {
         "psr-4": {
-            "RyanChandler\\FilamentNavigation\\": "src",
-            "RyanChandler\\FilamentNavigation\\Database\\Factories\\": "database/factories"
+            "Voltra\\FilamentNavigation\\": "src",
+            "Voltra\\FilamentNavigation\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RyanChandler\\FilamentNavigation\\Tests\\": "tests"
+            "Voltra\\FilamentNavigation\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -63,7 +74,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RyanChandler\\FilamentNavigation\\FilamentNavigationServiceProvider"
+                "Voltra\\FilamentNavigation\\FilamentNavigationServiceProvider"
             ]
         }
     },

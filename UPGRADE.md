@@ -1,5 +1,14 @@
 # Upgrade Guide
 
+## From `ryangjchandler/filament-navigation` to `voltra/filament-navigation`
+
+To migrate from `ryangjchandler/filament-navigation` to `voltra/filament-navigation`, you will first need to install the new package:
+```bash
+composer require voltra/filament-navigation
+```
+
+Then replace all references of the `RyanChandler\FilamentNavigation` namespace with `Voltra\FilamentNavigation`.
+
 ## Upgrading from v0.x to v1.0
 
 Starting with version v1.0, this package now only supports Filament v3.x.
@@ -11,7 +20,7 @@ Follow these steps to update the package for Filament v3.x.
 3. Register the plugin inside of your project's `PanelProvider`.
 
 ```php
-use RyanChandler\FilamentNavigation\FilamentNavigation;
+use Voltra\FilamentNavigation\FilamentNavigation;
 
 public function panel(Panel $panel): Panel
 {

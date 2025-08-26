@@ -1,10 +1,10 @@
 <?php
 
-namespace RyanChandler\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
+namespace Voltra\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
 
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
-use RyanChandler\FilamentNavigation\FilamentNavigation;
+use Voltra\FilamentNavigation\FilamentNavigation;
 
 class ListNavigations extends ListRecords
 {

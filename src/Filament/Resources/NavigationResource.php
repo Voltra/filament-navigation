@@ -1,6 +1,6 @@
 <?php
 
-namespace RyanChandler\FilamentNavigation\Filament\Resources;
+namespace Voltra\FilamentNavigation\Filament\Resources;
 
 use Filament\Forms\Components\Group;
 use Filament\Forms\Components\Placeholder;
@@ -17,8 +17,8 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
-use RyanChandler\FilamentNavigation\FilamentNavigation;
-use RyanChandler\FilamentNavigation\Models\Navigation;
+use Voltra\FilamentNavigation\FilamentNavigation;
+use Voltra\FilamentNavigation\Models\Navigation;
 
 class NavigationResource extends Resource
 {
